@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.cool{
+    margin-top: 60px;
+}
+.cool .breadcrumb{
+    padding: 8px 0;
+    margin: 20px 0;
+}
+.cool .breadcrumb a{
+    color: #C3924D;
+}
+.cool .breadcrumb a:hover{
+    color: #23527C;
+    transition: 1s;
+}
+.cool .pagination{
+    margin-left: 40%;
+}

@@ -1,0 +1,455 @@
+@charset "UTF-8";
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #F8F8F8;
+}
+.blank5{
+    height: 5px;
+}
+.blank20{
+    height: 20px;
+}
+.blank30{
+    height: 30px;
+}
+.blank70{
+    height: 70px;
+}
+a:hover{
+    text-decoration: none;
+}
+/*========================header start=============*/
+.header nav{
+    background: black;
+}
+.header .navbar-toggle{
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+.header .navbar-toggle:hover{
+    border: 1px solid #C3924D;
+}
+.header .navbar-toggle i{
+    background: #C3924D;
+}
+.header li a,.header span a{
+    font-size: 0.9em;
+    color: #B7B7B7;
+}
+.header span a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+}
+.header .active a{
+    color: #B66D13;
+}
+.header li a:hover,.header li a:focus,.header span a:hover{
+    background: none;
+    color: #B66D13;
+    transition: 1s;
+}
+.header .navbar{
+    margin-bottom: 0;
+}
+.header img{
+    max-height: 60px;
+    margin-top: -21px;
+}
+@media (max-width: 768px) {
+    .navbar-nav > li > a{
+        padding: 5px 15px;
+    }
+    .header span{
+        display: none;
+    }
+    .header .navbar-collapse{
+        background: #fff;
+    }
+}
+/*========================header end===============*/
+/*========================banner start=============*/
+.banner{
+    margin-top: 51px;
+}
+/*========================banner end===============*/
+/*========================tocan start=================*/
+.tocan .container{
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+.tocannerse{
+    width: 3400px;
+    position: absolute;
+    left: 0;
+}
+.tocan .tocannerse{
+    animation: banner 10s infinite linear;
+}
+@keyframes banner {
+    0%{left: 0}
+    100%{left: -830px}
+}
+.tocan span{
+    display: inline-block;
+    height: 48px;
+    background: #C28F48;
+    color: #fff;
+    margin: 0 5px;
+    padding: 0 17px;
+}
+.tocan a{
+    text-decoration: none;
+    line-height: 50px;
+    color: #000;
+}
+.tocan a:hover{
+    color: #D3AE7B;
+    transition: 1s;
+}
+.tocan span:hover{
+    background: black;
+}
+.tocan{
+    background: #fff;
+}
+/*======================tocan end=======================*/
+.blank50{
+    height: 50px;
+}
+/*======================cool start======================*/
+.cool .biz{
+    background: #2d2d2d;
+    color: #C28F48;
+}
+.cool .biz:hover{
+    background: #373737;
+}
+.panel{
+    border: none;
+    margin-bottom: 10px;
+    background: #f8f8f8;
+}
+.cool p{
+    font-size: 12px;
+    color: #8d8d8d;
+    line-height: 170%;
+    margin-bottom: 20px;
+}
+.btn-group a{
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+}
+.btn-group a:first-of-type{
+    background: #2c2c2c;
+}
+.btn-group a:first-of-type:hover{
+    background: #404040;
+}
+.btn-group a:last-of-type{
+    background: #C89348;
+}
+.btn-group a:last-of-type:hover{
+    background: #DCA24F;
+}
+.cool .mode{
+    background: #C89348;
+}
+.cool .mode:hover{
+    background: #DB9A3E;
+}
+.cool h3{
+    color: #fff;
+}
+.cool .mode span{
+    color: #000;
+}
+.cool .row .modd img{
+    max-width: 25%;
+    float: left;
+    margin-right: 15px;
+}
+.cool .modd > div{
+    background: #fff;
+}
+.cool .panel{
+    border-radius: 0;
+}
+.cool .modd > .panel a{
+    color: #616161;
+}
+.cool .modd > .panel span a{
+    color: #C3924D;
+}
+.cool .modd > .panel span{
+    display: block;
+    margin: 5px 0;
+}
+.cool .modd > .panel span a:hover{
+    color: #23527C;
+    transition: 1s;
+}
+.cool .panel:hover{
+    box-shadow: 0 0 0 rgba(0,0,0,.9);
+}
+.cool .modt{
+    padding-bottom: 55px;
+}
+.cool .col-sm-6{
+    padding: 1px;
+}
+.cool .moda img,.cool .modb img{
+    max-width: 100%;
+    border: 2px solid transparent;
+}
+.cool .moda img:hover,.cool .modb img:hover{
+    border: 2px solid #FD58B1;
+    transition: 1s;
+}
+.cool .moda .panel,.cool .modb .panel{
+    background: #fff;
+    margin-bottom: 20px;
+}
+.cool .row:nth-of-type(2) img{
+    max-width: 100%;
+}
+.box{
+    overflow: hidden;
+    position: relative;
+}
+.box a:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100,100,100,0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all .5s ease;
+}
+.box:hover a:after{
+    background-color: rgba(251,251,251,.5);
+    transition: all .5s ease;
+}
+.cool .wrap{
+    position: absolute;
+    width: 100%;
+    background: #444;
+    bottom: -68px;
+    padding: 20px 10px;
+    transition: all .5s ease;
+}
+.wrap span{
+    display: inline-block !important;
+    width: 33px;
+    line-height: 13px;
+    background: #F0AD4E;
+}
+.wrap h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.box:hover .wrap{
+    bottom: 0;
+    cursor: pointer;
+}
+.box:hover{
+    cursor: pointer;
+}
+.cool .col-xs-6{
+    padding: 1px;
+    margin-bottom: 10px;
+}
+.cool .col-xs-6 span{
+    display: block;
+    font-size: 12px;
+    padding: 4px 0;
+}
+.cool .warfong{
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+.cool .warfong a{
+    color: #C3924D;
+}
+.cool .warfong a:hover{
+    color: #23527C;
+    transition: 1s;
+}
+.cool .warfong strong{
+    font-weight: 100;
+    color: #989898;
+}
+.clearfix .btn{
+    width: 100%;
+    color: #C3924D;
+}
+.clearfix .btn:hover{
+    color: #333;
+    transition: 1s;
+}
+.btn{
+    border-radius: 0;
+}
+.ousfng .btn{
+    background: #2c2c2c;
+    width: 50%;
+    color: #fff;
+    margin: 20px 0 50px;
+}
+.ousfng .btn:hover{
+    background: #404040;
+    color: #fff;
+}
+/*======================cool end========================*/
+/*======================main start==================*/
+.main{
+    background: #fff;
+    padding-top: 50px;
+}
+.dotted_line{
+    margin: 5px 0 20px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dotted #d7d7d7;
+}
+.main .label a{
+    color: #979797;
+}
+.main .label{
+    display: inline-block;
+    padding: 10px 15px;
+    background: #f6f6f6;
+    font-weight: 100;
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+.main .label:hover{
+    background: #000;
+}
+.main .label:hover a{
+    color: #fff;
+}
+.main .col-lg-8{
+    margin-bottom: 30px;
+}
+.main .col-lg-3 img{
+    max-width: 74%;
+    margin: 0 35px;
+}
+.main .col-lg-3,.oder{
+    margin-bottom: 30px;
+}
+.main p{
+    color: #9b9b9b;
+    font-size: 12px;
+    line-height: 190%;
+}
+.main .oder + p{
+    margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+    .main .col-lg-3 img{
+        width: 29%;
+    }
+    .main .col-lg-3{
+        margin-bottom: 0;
+    }
+}
+/*======================main end============================*/
+/*======================photo start============================*/
+.photo{
+    padding-top: 30px;
+}
+.photo .row{
+    padding-bottom: 20px;
+}
+.photo .col-sm-6 img{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+.photo .col-sm-6:hover{
+    margin-top: -10px;
+}
+.photo .col-sm-6{
+    padding: 1px;
+}
+.photo .border{
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 13px;
+    background: #fff;
+    transition: .1s;
+}
+/*======================photo end============================*/
+/*======================footer start============================*/
+.footer{
+    background: #363636;
+    color: #A4A4A0;
+    font-size: 12px;
+    padding: 20px 0 30px;
+}
+.footer .row{
+    margin: 0 15px;
+    border-bottom: 1px solid #212121;
+}
+.footer h3{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.footer .list-group-item{
+    background-color: #363636;
+    border: 0;
+    color: #8D8D8D;
+    transition: .5s;
+    padding: 5px 0;
+    text-align: left;
+    font-weight: 600;
+}
+.footer .list-group-item:hover{
+    background-color: #363636;
+    color: #515151;
+    transition: .5s;
+}
+.footer a{
+    color: #868686;
+}
+.footer p{
+    margin: 0;
+    line-height: 20px;
+}
+.footer a:hover{
+    color: #C70046;
+    transition: .1s;
+}
+.footer .container div{
+    padding-top: 30px;
+}
+/*======================footer end============================*/
+.nav_bs{
+    background-color: #fff !important;
+}
+.nav_bsb{
+    color: black !important;
+    margin-left: 6px !important;
+}
+#nav,#nav a{
+    transition: 1s;
+}
+#nav li a{
+    margin-left: 9px;
+}
+
+

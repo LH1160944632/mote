@@ -1,0 +1,36 @@
+@charset "UTF-8";
+.tocan{
+    margin-top: 60px;
+}
+.tocbn{
+    padding: 20px;
+}
+.plan h1{
+    font-size: 1.6em;
+    color: #2b2b2b;
+}
+.plan p{
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.plan h2{
+    font-size: 2em;
+    background: #7d45fe;
+    color: #fff;
+    padding: 10px 15px;
+}
+.plan h3{
+    color: #fff;
+    background: #303030;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+.panel-body{
+    background: #fff;
+}
+.plan .blankh2{
+    background: #b10000;
+}
+.plan .blankp{
+    padding: 0 0 20px;
+}

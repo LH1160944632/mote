@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.Business{
+    margin-top: 60px;
+}
+.Business h1{
+    font-size: 1.6em;
+    margin: 0;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.Business .col-sm-8 img{
+    padding-top: 10px;
+}
+.Business .panel-body{
+    background: #fff;
+}
+.Business h2{
+    font-size: 12px;
+    margin: 0 0 20px;
+    padding: 14px 0 14px 20px;
+    color: #fff;
+    background: #383838;
+}
+.Business p{
+    padding: 10px 15px;
+    font-size: 12px;
+    letter-spacing: .3em;
+    margin-bottom: 0;
+}
+.Business .blank30 + .row p,.Business .blank20 + p{
+    letter-spacing: 0;
+    padding: 0 0 20px;
+}
+.Business .blank20 + p{
+    line-height: 180%;
+}
+.Business .blank30 + .row img{
+    padding-top: 0;
+}
+
+

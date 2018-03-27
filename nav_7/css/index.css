@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.ol{
+    margin-top: 0;
+}
+.fraudPrevention .footing img{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fraudPrevention .footing p{
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.fraudPrevention .col-sm-3{
+    margin-top: 56px;
+    padding: 0;
+}
+.theArticle{
+    padding: 0;
+}
+.theArticle a{
+    display: block;
+    padding: 10px 15px;
+    color: #BEBEBE;
+    transition: 1s;
+    font-size: 12px;
+}
+.theArticle a:first-of-type{
+    color: #777;
+    background: #eee;
+}
+.theArticle a:first-of-type:hover{
+    cursor:not-allowed;
+}
+.theArticle a:hover{
+    color: #555555;
+    background: #F8F8F8;
+}
